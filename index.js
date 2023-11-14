@@ -19,5 +19,5 @@ app.use( express.static( publicPath ) );
 server.listen(process.env.PORT, ( err ) => {
     
     if( err ) throw new Error(err);
-    console.log('Server started on porto ???', process.env.PORT);
+    console.log('Server started on port: ', process.env.PORT);
 });
